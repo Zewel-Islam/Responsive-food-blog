@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "FiraCode Nerd Font Propo";
+}
+p{
+    font-weight: 300;
+    color: #111;
+}
+.banner{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("image/bgok.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.banner .content{
+    max-width: 900px;
+    text-align: center;
+}
+.banner .content h2{
+    font-size: 5em;
+    color: #fff;
+}
+.banner .content p{
+    font-size: 1em;
+    color:#ffffff;
+}
+.btn{
+    font-size: 1em;
+    color: #ffffff;
+    background: #ff0157;
+    padding: 10px 30px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all .3s linear;
+}
+.btn:hover{
+    letter-spacing: 6px;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header.sticky{
+    background: #fff;
+    padding: 40px 100px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+}
+header .logo {
+    font-size: 2em;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+header.sticky .logo{
+    color: #111111;
+}
+header .logo span{
+    color: #ff0157;
+}
+header .navigation{
+    position: relative;
+    display: flex;
+}
+header .navigation li{
+    list-style: none;
+    margin-left: 30px;
+}
+header .navigation li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+header.sticky .navigation li a {
+    color: #111111;
+}
+header .navigation li a:hover{
+    color: #ff0157;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
